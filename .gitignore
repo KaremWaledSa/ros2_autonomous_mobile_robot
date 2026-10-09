@@ -1,0 +1,39 @@
+# ROS 2 / colcon output
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# ROS recordings and generated diagnostics
+*.bag
+*.db3
+*.mcap
+rosbag2_*/
+frames.pdf
+frames.gv
+
+# Gazebo runtime state
+.gazebo/
+.gz/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
